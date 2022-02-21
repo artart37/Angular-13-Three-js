@@ -1,0 +1,22 @@
+<header>
+  <span class="simple-headline">ThreeJS Angular</span>
+</header>
+<main class="height-normaliser">
+  <div class="page-container">
+    <section class="page-one">
+      <h3 class="simple-headline">My shapes</h3>
+      <ul class="u-list">
+        <li *ngFor="let item of boxes" class="simple-text list" (click)="selectBox(item)">
+          <span>{{ item.itemDescription }}</span>
+        </li>
+      </ul>
+    </section>
+    <section class="page-two">
+      <h1 class="simple-headline">{{ 'Shape ' + selectedBox?.itemDescription }}</h1>
+      <app-shape-space [selectedBox]="selectedBox"></app-shape-space>
+    </section>
+  </div>
+</main>
+<footer>
+  <p class="small-text">&copy;github/artart37</p>
+</footer>
