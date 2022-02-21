@@ -14,7 +14,7 @@ export class BoxService {
     {
       id: 0,
       itemDescription: 'One',
-      color: '0X9D0707',
+      color: 0x9d0707,
       x: 1,
       y: 1,
       z: 1,
@@ -22,7 +22,7 @@ export class BoxService {
     {
       id: 1,
       itemDescription: 'Two',
-      color: '0X07499D',
+      color: 0x07499d,
       x: 2,
       y: 1,
       z: 4,
@@ -30,7 +30,7 @@ export class BoxService {
     {
       id: 3,
       itemDescription: 'Three',
-      color: '0XA20BB4',
+      color: 0xa20bb4,
       x: 1,
       y: 3,
       z: 5,

@@ -84,7 +84,7 @@ export class ShapeSpaceComponent implements OnInit, OnChanges {
       this.selectedBox?.y,
       this.selectedBox?.z
     );
-    this.material = new THREE.MeshBasicMaterial({ color: 0x4d138c });
+    this.material = new THREE.MeshBasicMaterial({ color: this.selectedBox?.color });
     this.box = new THREE.Mesh(this.geometry, this.material);
     this.scene.add(this.box);
   }
