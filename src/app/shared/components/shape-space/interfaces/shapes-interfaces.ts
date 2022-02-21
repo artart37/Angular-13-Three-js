@@ -1,9 +1,11 @@
+import { ColorRepresentation } from 'three';
+
 export type Dimensions = 'width' | 'height';
 
 export interface BoxResponse {
   id: number;
   itemDescription: string;
-  color: string;
+  color: ColorRepresentation;
   x: number;
   y: number;
   z: number;
