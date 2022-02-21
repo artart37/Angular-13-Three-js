@@ -1,0 +1,16 @@
+.section-wrapper {
+  height: 100%;
+}
+
+.canvas-container {
+  height: 100%;
+  box-sizing: border-box;
+  border-top: solid 0.0625rem #000000;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+#canvas {
+  max-width: 100%;
+}
